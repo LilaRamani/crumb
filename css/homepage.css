@@ -1,0 +1,68 @@
+html, body {
+	height: 1300px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#name_header {
+        font-size: 40px;
+        font-family: inherit;
+}
+a {
+	font-size: 25px;
+	color: rgb(101, 183, 255);
+	text-decoration: none;
+	font-family: inherit;
+}
+#page {
+		width: inherit;
+		height: inherit;
+		background-image: url(../images/background.jpg); 
+		text-align: center;
+}
+.main_content {
+		background-color: black;
+		height: inherit;
+		width: 68%;
+		margin: 0 auto;
+		list-style-type: none;
+		font-family: arial;
+}
+
+#bio {
+	font-size: 25px;
+	color: purple;
+}
+
+.text_content {
+		margin: 0 auto;
+		width: 687px;
+		height: 200px;
+		padding-top: 90px;
+		color: rgb(101, 183, 255);
+}
+
+.resume_text {
+	text-align: left;
+}
+
+.job_position {
+	font-style: italic;
+}
+
+.location {
+	left: 400px;
+}
+
+.date {
+	left: 400px;
+}
+
+.experience {
+	list-style-type: circle;
+}
+
+.no_bullet {
+	list-style-type: none;
+}
