@@ -56,6 +56,10 @@ img {
 	height: 400px;
 }
 
+.links {
+	text-align: center;
+}
+
 .job_position {
 	font-style: italic;
 }
