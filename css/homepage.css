@@ -18,7 +18,7 @@ a {
 #page {
 		width: inherit;
 		height: inherit;
-		background-image: url(../images/background.jpg); 
+		background-color: black;
 		text-align: center;
 }
 .main_content {
@@ -38,13 +38,22 @@ a {
 .text_content {
 		margin: 0 auto;
 		width: 687px;
-		height: 200px;
 		padding-top: 90px;
 		color: rgb(101, 183, 255);
+		text-align: center;
 }
 
 .resume_text {
 	text-align: left;
+}
+
+.album {
+	margin: 0 auto;
+}
+
+img {
+	width: 400px;
+	height: 400px;
 }
 
 .job_position {
