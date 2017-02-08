@@ -20,6 +20,7 @@ a {
 		height: inherit;
 		background-color: black;
 		text-align: center;
+		background-image: url(../images/crumbart.jpg);
 }
 .main_content {
 		background-color: black;
@@ -51,10 +52,6 @@ a {
 	margin: 0 auto;
 }
 
-img {
-	width: 400px;
-	height: 400px;
-}
 
 .links {
 	text-align: center;
