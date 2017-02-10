@@ -106,3 +106,16 @@ a {
 .no_bullet {
 	list-style-type: none;
 }
+
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+/* STYLES GO HERE */
+	.main_content {
+		background-color: black;
+		background-image: none;
+	}
+
+}
+
