@@ -15,6 +15,18 @@ a {
 	text-decoration: none;
 	font-family: inherit;
 }
+
+.header {
+	padding-top: 10px;
+	margin-left: 800px;
+}
+
+.header img {
+	height: 20px;
+	width: 20px;
+	opacity: 0.8;
+}
+
 #page {
 		width: inherit;
 		height: inherit;
@@ -39,7 +51,7 @@ a {
 .text_content {
 		margin: 0 auto;
 		width: 687px;
-		padding-top: 90px;
+		padding-top: 60px;
 		color: rgb(101, 183, 255);
 		text-align: center;
 }
