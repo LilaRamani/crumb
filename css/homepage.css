@@ -49,11 +49,11 @@ a {
 }
 
 .text_content {
-		margin: 0 auto;
-		width: 687px;
-		padding-top: 60px;
-		color: rgb(101, 183, 255);
-		text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 60px;
+	color: rgb(101, 183, 255);
+	text-align: center;
 }
 
 .shows {
@@ -126,6 +126,11 @@ and (max-device-width : 667px) {
 	.main_content {
 		background-color: black;
 		background-image: none;
+	}
+
+	.header {
+		padding-top: 10px;
+		margin-left: 500px;
 	}
 
 }
