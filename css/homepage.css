@@ -1,5 +1,5 @@
 html, body {
-	height: 1300px;
+	height: 9500px;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -44,6 +44,25 @@ a {
 		text-align: center;
 }
 
+.shows {
+	width: 400px;
+	background-color: pink;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	border-color: rgb(101, 183, 255);
+	border-style: solid;
+}
+
+.bio {
+	width: 600px;
+	background-color: pink;
+	margin: 0 auto;
+	font-size: 14px;
+	border-color: rgb(101, 183, 255);
+	border-style: solid;
+}
+
 .resume_text {
 	text-align: left;
 }
@@ -51,7 +70,6 @@ a {
 .album {
 	margin: 0 auto;
 }
-
 
 .links {
 	text-align: center;
