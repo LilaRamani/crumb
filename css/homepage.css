@@ -57,14 +57,16 @@ a {
 }
 
 .shows {
-	width: 400px;
+	width: 600px;
 	background-color: pink;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin: 0 auto;
 	border-color: rgb(101, 183, 255);
 	border-style: solid;
+	font-size: 25px;
 }
+
 
 .press {
 	width: 400px;
