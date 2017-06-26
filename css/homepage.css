@@ -88,6 +88,11 @@ a {
 	border-style: solid;
 }
 
+#locket-letters {
+	width: 50%;
+	height: 50%;
+}
+
 .resume_text {
 	text-align: left;
 }
