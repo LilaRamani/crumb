@@ -1,5 +1,5 @@
 html, body {
-	height: 11500px;
+	height: 12500px;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -125,6 +125,10 @@ a {
 	list-style-type: none;
 }
 
+#shirt {
+	height: 300px;
+	width: 300px;
+}
 
 @media only screen
 and (min-device-width : 375px)
