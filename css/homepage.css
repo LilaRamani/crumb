@@ -1,5 +1,5 @@
 html, body {
-	height: 12500px;
+	height: 12000px;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -14,6 +14,14 @@ a {
 	color: rgb(101, 183, 255);
 	text-decoration: none;
 	font-family: inherit;
+}
+
+a:hover {
+	color: rgb(221, 160, 221);
+}
+
+a:active {
+	color: rgb(138, 43, 226);
 }
 
 .header {
