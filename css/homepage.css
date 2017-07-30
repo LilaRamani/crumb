@@ -1,5 +1,5 @@
 html, body {
-	height: 12000px;
+	height: 11600px;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -14,6 +14,10 @@ a {
 	color: rgb(101, 183, 255);
 	text-decoration: none;
 	font-family: inherit;
+}
+
+h2 {
+	font-size: 25px;
 }
 
 a:hover {
@@ -101,6 +105,13 @@ a:active {
 	height: 50%;
 }
 
+
+#crumb-letters {
+	width: 50%;
+	height: 50%;
+}
+
+
 .resume_text {
 	text-align: left;
 }
@@ -133,10 +144,17 @@ a:active {
 	list-style-type: none;
 }
 
-#shirt {
-	height: 300px;
-	width: 300px;
+.shirt {
+	height: 400px;
+	width: 400px;
 }
+
+.shirt:hover {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+    cursor: pointer;
+}
+
 
 @media only screen
 and (min-device-width : 375px)
