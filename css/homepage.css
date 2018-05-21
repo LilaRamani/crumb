@@ -11,7 +11,7 @@ html, body {
 }
 a {
 	font-size: 25px;
-	color: rgb(101, 183, 255);
+	color: rgb(102, 204, 204);
 	text-decoration: none;
 	font-family: inherit;
 }
@@ -63,8 +63,8 @@ a:active {
 .text_content {
 	margin: 0 auto;
 	width: 100%;
-	padding-top: 60px;
-	color: rgb(101, 183, 255);
+	padding-top: 20px;
+	color: rgb(102, 204, 204);
 	text-align: center;
 }
 
@@ -74,7 +74,7 @@ a:active {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin: 0 auto;
-	border-color: rgb(101, 183, 255);
+	border-color: rgb(102, 204, 204);
 	border-style: solid;
 	font-size: 25px;
 }
@@ -86,7 +86,7 @@ a:active {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin: 0 auto;
-	border-color: rgb(101, 183, 255);
+	border-color: rgb(102, 204, 204);
 	border-style: solid;
 	text-decoration: underline;
 }
@@ -96,7 +96,7 @@ a:active {
 	background-color: pink;
 	margin: 0 auto;
 	font-size: 14px;
-	border-color: rgb(101, 183, 255);
+	border-color: rgb(102, 204, 204);
 	border-style: solid;
 }
 
@@ -153,6 +153,15 @@ a:active {
 	opacity: 0.5;
     filter: alpha(opacity=50);
     cursor: pointer;
+}
+
+.nav button {
+	cursor: pointer;
+	border: none;
+	background-color: black;
+	img {
+		color: red;
+	}
 }
 
 
