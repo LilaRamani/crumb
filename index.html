@@ -5,6 +5,7 @@
 	<title> Crumb The Website </title>
 	<link rel="stylesheet" type="text/css" href="css/homepage.css" />
   <link rel="shortcut icon" href="favicon.ico" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 </head>
 <body>
   <script>
@@ -20,10 +21,15 @@
 	<div id="page">
 	    <div class="main_content">
           <div class="header">
-              <a href="https://www.instagram.com/some_crumb/"><img src='images/instalogo.png'/></a>
-              <a href="https://www.facebook.com/TheCrumbBand/"><img src='images/facebooklogo.png'/></a>
-              <a href="https://soundcloud.com/crumbtheband"><img src='images/sclogo.png'/></a>
-              <a href="https://twitter.com/crumbtheband"><img src='images/tweet.png'/></a>
+            <a href="https://www.instagram.com/some_crumb/"><img src='images/instalogo.png'/></a>
+            <a href="https://www.facebook.com/TheCrumbBand/"><img src='images/facebooklogo.png'/></a>
+            <a href="https://soundcloud.com/crumbtheband"><img src='images/sclogo.png'/></a>
+            <a href="https://twitter.com/crumbtheband"><img src='images/tweet.png'/></a>
+          </div>
+          <div class="nav">
+            <button id="merchButton"><img src="images/merchheaderblue.png" /></button>
+            <button id="showButton"><img src="images/showsheaderblue.png" /></button>
+            <button id="contactButton"><img src="images/contactheaderblue.png" /></button>
           </div>
         	<div class="text_content">
                 <img id="locket-letters" src='images/locketletters.png'/>
@@ -44,13 +50,13 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/nD3iG6m44g8" frameborder="0" allowfullscreen></iframe>
                 <h2><a target="_blank" href="https://citruscityrecords.bandcamp.com/album/crumb-locket">Crumb / Locket 12" Vinyl</a></h2>
                   <a style="display: block;" target="_blank" href="https://citruscityrecords.bandcamp.com/album/crumb-locket"><img class="shirt" src='images/vinyl.png'/></a>
-                <h2><a href="http://aintwet.nyc/show_product/5a9379994c600a79218f1d87">Shirts</a></h2>
+                <h2 id="merch"><a href="http://aintwet.nyc/show_product/5a9379994c600a79218f1d87">Shirts</a></h2>
                   <a style="display: block;" target="_blank" href="http://aintwet.nyc/product_info/5af5bd26c8cb8c41a202ce97"><img class="shirt" src='images/CRUMB_TOUR_SS_FRONT.png'/></a>
                   <a style="display: block;" target="_blank" href="http://aintwet.nyc/product_info/5af5bdb9c8cb8c41a202ce9a"><img class="shirt" src='images/CRUMB_TOUR_LS_back.png'/></a>
                   <a style="display: block;" target="_blank" href="http://aintwet.nyc/product_info/5a9399284c600a79218f1d8a"><img class="shirt" src='images/shirt-grey.png'/></a>
                   <a style="display: block;" target="_blank" href="http://aintwet.nyc/product_info/5a9399f94c600a79218f1d8e"><img class="shirt" src='images/shirt-black.png'/></a>
                 <div class="links">
-                    <h2><a target="_blank" href="http://www.groundcontroltouring.com/tours/crumb">Tickets</a></h2>
+                    <h2 id="tour"><a target="_blank" href="http://www.groundcontroltouring.com/tours/crumb">Tickets</a></h2>
                     <div class="shows">
                       <p><a target="_blank" href="https://www.ticketfly.com/event/1628164-crumb-combo-chimbita-brooklyn/">5/25 - Brooklyn, NY - Elsewhere (Hall)</a></p>
                       <p><a target="_blank" href="https://bit.ly/2HrXSj0">5/31 - Boston, MA - The Sinclair</a></p>
@@ -73,7 +79,7 @@
              <!--    <img src="images/pic25.jpg"/>
                 <img src='images/pic11.jpg'/> -->
                 <p>+++</p>
-                <h2>Contact</h2>
+                <h2 id="contact">Contact</h2>
                 <p><a href="mailto:crumbplaysmusic@gmail.com">The Band - Crumb</a></p>
                 <p><a href="mailto:john@groundcontroltouring.com">US Booking - John Chavez</a></p>
                 <p style="font-size: 25px;">European Booking - <a href="mailto:will@atc-live.com">Will Church</a> &amp; <a href="mailto:sinan@atc-live.com">Sinan Ors</a></p>
@@ -97,5 +103,6 @@
           </div>
        </div>
     </div>
+<script type="text/javascript" src="index.js"></script>
 </body>
 </html>
