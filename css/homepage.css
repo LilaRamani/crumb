@@ -169,6 +169,9 @@ a:active {
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
 /* STYLES GO HERE */
+	#page {
+		background-image: none;
+	}
 	.main_content {
 		background-color: black;
 		background-image: none;
