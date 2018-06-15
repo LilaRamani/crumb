@@ -1,5 +1,4 @@
 $(document).ready(function (){
-	console.log('here');
 	$("#merchButton").click(function (){
 	    $('html, body').animate({
 	        scrollTop: $("#merch").offset().top
