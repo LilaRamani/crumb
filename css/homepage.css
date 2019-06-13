@@ -1,5 +1,5 @@
 html, body {
-	height: 15500px;
+	height: 17500px;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -44,7 +44,7 @@ a:active {
 		height: inherit;
 		background-color: black;
 		text-align: center;
-		background-image: url(../images/jinx.jpg);
+		background-image: url(../images/longjinx.jpg);
 }
 .main_content {
 		background-color: black;
@@ -105,6 +105,10 @@ a:active {
 	height: 50%;
 }
 
+#jinx-letters {
+	width: 50%;
+	height: 50%;
+}
 
 #crumb-letters {
 	width: 50%;
