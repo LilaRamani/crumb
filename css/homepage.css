@@ -184,11 +184,17 @@ and (max-device-width : 667px) {
 	.main_content {
 		background-color: black;
 		background-image: none;
+		width: 100%;
 	}
 
 	.header {
 		padding-top: 10px;
 		margin-left: 500px;
+	}
+	.nav img {
+		height: 100px;
+		width: 130px;
+		opacity: 0.9;
 	}
 
 }
