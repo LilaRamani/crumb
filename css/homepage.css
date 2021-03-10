@@ -49,7 +49,7 @@ a:active {
 		height: inherit;
 		background-color: black;
 		text-align: center;
-		background-image: url(../images/longjinx.jpg);
+		/*background-image: url(../images/longjinx.jpg);*/
 }
 .main_content {
 		background-color: black;
@@ -103,6 +103,11 @@ a:active {
 	font-size: 14px;
 	border-color: rgb(102, 204, 204);
 	border-style: solid;
+}
+
+#trophy-letters {
+	width: 50%;
+	height: 50%;
 }
 
 #locket-letters {
